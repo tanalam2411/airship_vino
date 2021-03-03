@@ -1,0 +1,10 @@
+domain: airshipit.org
+repo: vino
+resources:
+- group: airship
+  kind: Vino
+  version: v1
+- group: airship
+  kind: IPPool
+  version: v1
+version: "2"
